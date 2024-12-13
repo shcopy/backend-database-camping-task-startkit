@@ -30,13 +30,13 @@ SET role = 'COACH'
 WHERE name IN ('李燕容', '肌肉棒子', 'Q太郎') AND role = 'USER';
 
 -- 1-3 刪除：刪除USER 資料表中，用 Email 找到透明人，並刪除該筆資料
-DELETE FROM "USER" WHERE email = 'opacity0@hexschooltest.io';
+-- DELETE FROM "USER" WHERE email = 'opacity0@hexschooltest.io';
 
 -- 1-4 查詢：取得USER 資料表目前所有用戶數量（提示：使用count函式）
-SELECT COUNT(id) AS 用戶數量 FROM "USER";
+-- SELECT COUNT(id) AS 用戶數量 FROM "USER";
 
 -- 1-5 查詢：取得 USER 資料表所有用戶資料，並列出前 3 筆（提示：使用limit語法）
-SELECT * FROM "USER" LIMIT 3;
+-- SELECT * FROM "USER" LIMIT 3;
 
 
 --  ████████  █████   █    ████  
@@ -57,14 +57,10 @@ VALUES
 ('14 堂組合包方案', 14, 2520),
 ('21 堂組合包方案', 21, 4800);
 
-
 -- 2-2. 新增：在 `CREDIT_PURCHASE` 資料表，新增三筆資料：（請使用 name 欄位做子查詢）
     -- 1. `王小明` 購買 `14 堂組合包方案`
     -- 2. `王小明` 購買 `21 堂組合包方案`
     -- 3. `好野人` 購買 `14 堂組合包方案`
-
-
-
 
 -- ████████  █████   █    ████   
 --   █ █   ██    █  █         ██ 
